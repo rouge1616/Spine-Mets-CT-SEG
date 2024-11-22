@@ -1,6 +1,7 @@
 # Spine-Mets-CT-SEG
-An open annotated dataset and baseline machine learning model for segmentation of vertebrae with metastatic bone lesions from CT
-This repository contains some python source code to use the Spine-Mets-CT-SEG dataset.
+An open annotated dataset and baseline machine learning model for segmentation of vertebrae with metastatic bone lesions from CT. 
+
+This repository contains some python code and training weights to be useed with the Spine-Mets-CT-SEG dataset.
 
 <br />
 
@@ -8,6 +9,8 @@ This repository contains some python source code to use the Spine-Mets-CT-SEG da
 
 ## Dataset
 The dataset can be dowloaded here: [TCIA Dataset](https://www.cancerimagingarchive.net/collection/spine-mets-ct-seg/) 
+
+This collection contains a dataset of 55 CT scans collected on patients with a large range of primary cancers and corresponding bone metastatic lesions obtained for patients with metastatic spine disease. Voxel-level annotations, vertebral level labelling and lesions classification are also provided.  
 
 ## Usage
 CT scans and segmentations are both provided in DICOM. We recommend 3D Slicer's DICOM viewer [3D Slicer](https://www.slicer.org), to view the DICOM images. The CT images can be viewed without additional extensions. 
