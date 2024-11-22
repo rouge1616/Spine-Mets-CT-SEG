@@ -1,6 +1,4 @@
-# Spine-Mets-CT-SEG
-An open annotated dataset and baseline machine learning model for segmentation of vertebrae with metastatic bone lesions from CT. 
-
+# Spine-Mets-CT-SEG: An open annotated dataset and baseline machine learning model for segmentation of vertebrae with metastatic bone lesions from CT. 
 This repository contains some python code and training weights to be useed with the Spine-Mets-CT-SEG dataset.
 
 <br />
