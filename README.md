@@ -13,8 +13,8 @@ The dataset can be dowloaded here: [TCIA Dataset](https://www.cancerimagingarchi
 CT scans and segmentations are both provided in DICOM. We recommend 3D Slicer's DICOM viewer [3D Slicer](https://www.slicer.org), to view the DICOM images. The CT images can be viewed without additional extensions. 
 The segmentations can be viewed using the [QuantitativeReporting extensions](https://qiicr.gitbook.io/quantitativereporting-guide/).
 
-## Conversion to Nifti
-We provide a script _tcia_dcm2nifit.py_ to convert the full dataset to Nifti file format. Make sure to re-assign the correct labels to the the vertebra levels after conversion using the corresponding JSON file. 
+## Convert to Nifti
+Use the script _tcia_dcm2nifit.py_ to convert the full dataset to Nifti file format. Make sure to re-assign the correct labels to the the vertebra levels after conversion using the corresponding JSON file. 
 
 ## Segmentation Weights
 The segmentation weights from the nnUNet training are provided in the folder _/weights_.
