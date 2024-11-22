@@ -11,7 +11,7 @@ The dataset can be dowloaded here: [TCIA Dataset](https://www.cancerimagingarchi
 This collection contains a dataset of 55 CT scans collected on patients with a large range of primary cancers and corresponding bone metastatic lesions obtained for patients with metastatic spine disease. Voxel-level annotations, vertebral level labelling and lesions classification are also provided.  
 
 ## Usage
-CT scans and segmentations are both provided in DICOM. We recommend 3D Slicer's DICOM viewer [3D Slicer](https://www.slicer.org), to view the DICOM images. The CT images can be viewed without additional extensions. 
+CT scans and segmentations are both provided in DICOM. We recommend [3D Slicer](https://www.slicer.org)'s DICOM viewer , to view the DICOM images. The CT images can be viewed without additional extensions. 
 The segmentations can be viewed using the [QuantitativeReporting extensions](https://qiicr.gitbook.io/quantitativereporting-guide/).
 
 ## Convert to Nifti
