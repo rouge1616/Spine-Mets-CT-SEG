@@ -14,10 +14,10 @@ CT scans and segmentations are both provided in DICOM. We recommend 3D Slicer's 
 The segmentations can be viewed using the [QuantitativeReporting extensions](https://qiicr.gitbook.io/quantitativereporting-guide/).
 
 ## Conversion to Nifti
-We provide a script to batch convert the full dataset in Nifti format. Make sure to re-assign correct labels to the the vertebra levels after conversion using the corresponding JSON file. 
+We provide a script _tcia_dcm2nifit.py_ to convert the full dataset to Nifti file format. Make sure to re-assign the correct labels to the the vertebra levels after conversion using the corresponding JSON file. 
 
 ## Segmentation Weights
-The segmentation weights from the nnUNet training are provided in the folder __/weights__ 
+The segmentation weights from the nnUNet training are provided in the folder _/weights_.
 
 ## Citation
 If you use this code or data for your research please cite this paper:
