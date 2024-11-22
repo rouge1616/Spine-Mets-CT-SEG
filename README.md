@@ -17,7 +17,7 @@ The segmentations can be viewed using the [QuantitativeReporting extensions](htt
 We provide a script to batch convert the full dataset in Nifti format. Please make sure to re-assign correct labels to the the vertbra levels after conversion using the corresponding JSON file. 
 
 ## Segmentation Weights
-We also provide the segmentation weights from the nnUNet training. 
+The segmentation weights from the nnUNet training are provided in the folder __weights/.__ 
 
 ## Citation
 If you use this code or data for your research please cite this paper.
