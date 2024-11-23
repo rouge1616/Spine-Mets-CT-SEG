@@ -15,7 +15,7 @@ CT scans and segmentations are both provided in DICOM. We recommend [3D Slicer](
 The segmentations require the [QuantitativeReporting extensions](https://qiicr.gitbook.io/quantitativereporting-guide/).
 
 ## Convert to Nifti
-Use the script _tcia_dcm2nifit.py_ to convert the full dataset to Nifti file format. Make sure to re-assign the correct labels to the the vertebra levels after conversion using the corresponding JSON file. 
+Use the script [tcia_dcm2nifit.py](https://github.com/rouge1616/Spine-Mets-CT-SEG/blob/main/tcia_dcm2nifti.py) to convert the full dataset to Nifti file format. Make sure to re-assign the correct labels to the the vertebra levels after conversion using the corresponding JSON file. 
 
 ## Segmentation Weights
 The segmentation weights from the nnUNet training are provided in the folder _/weights_.
