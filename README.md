@@ -1,5 +1,5 @@
 # Spine-Mets-CT-SEG: An open annotated dataset and baseline machine learning model for segmentation of vertebrae with metastatic bone lesions from CT. 
-This repository contains some python code and training weights to be useed with the Spine-Mets-CT-SEG dataset.
+This repository contains python scripts and model weights to be useed with the Spine-Mets-CT-SEG dataset.
 
 <br />
 
@@ -12,10 +12,10 @@ This collection contains a dataset of 55 CT scans collected on patients with a l
 
 ## Usage
 CT scans and segmentations are both provided in DICOM. We recommend [3D Slicer](https://www.slicer.org)'s DICOM viewer for visualization.
-The segmentations require the [QuantitativeReporting extensions](https://qiicr.gitbook.io/quantitativereporting-guide/).
+To correctly import and visualize the segmentations in 3D Slicer the [QuantitativeReporting](https://qiicr.gitbook.io/quantitativereporting-guide/) extension is required.
 
 ## Convert to Nifti
-Use the script [tcia_dcm2nifit.py](https://github.com/rouge1616/Spine-Mets-CT-SEG/blob/main/tcia_dcm2nifti.py) to convert the full dataset to Nifti file format. Make sure to re-assign the correct labels to the the vertebra levels after conversion using the corresponding JSON file. 
+If needed, you can use the script [tcia_dcm2nifit.py](https://github.com/rouge1616/Spine-Mets-CT-SEG/blob/main/tcia_dcm2nifti.py) to convert the full dataset to Nifti file format.
 
 ## Segmentation Weights
 The segmentation weights from the nnUNet training are provided in the folder _/weights_.
